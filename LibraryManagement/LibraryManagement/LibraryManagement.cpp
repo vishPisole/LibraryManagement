@@ -108,6 +108,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
 
+  AfxMessageBox("Hello");
    return TRUE;
 }
 
